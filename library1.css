@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   margin: 0 auto;
+   padding: 20px;
+   width: 600px;
+   background-color: burlywood;
+   border: 3px;
+   border-radius: 10px;
+}
+select{
+    padding: 10px 245px;
+    text-align: left;
+      
+}
+
+
+option{
+    text-align: left;
+    padding: 10px ;
+}
+.box1 input{
+     padding:  10px 200px;
+     text-align: left;
+    
+}
+.box2{
+    padding: 5px;
+    background-color: green;
+    text-align: center;
+}
+

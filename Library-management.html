@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New Library Member Dashboard</h1>
+        <div class="box1">
+            <form action="">
+
+            
+            <label for="">Member Select:</label>
+            <select name="" id="">
+                <option value="">Admin</option>
+                <option value="">Students</option>
+                <option value="">staff</option>
+                <option value="">Teacher</option>
+            </select><br>
+            <br>
+            <label for="">Membership ID:</label>
+            <input type="number" placeholder="Enter Membership ID" id="Membership ID" title="Member ID must be exactly 5 digit"><br><br>
+
+            <label for="">Full Name:</label>
+            <input type="text" placeholder="Enter Full Name" id="Full Name" minlength="3" maxlength="20" title="Name should contain alphabets"  required><br><br>
+
+            <label for="">Email:</label>
+            <input type="text" placeholder="Enter Email Address" id="Email" tilte="Please enter a valid Email" required><br><br>
+
+            <label for="">Phone Number:</label>
+            <input type="number" id="number" placeholder="Enter Number" value="977" pattern="[0-9]{13}" title="Number must be 10 digit" required><br><br>
+
+
+            <label for="">Batch(Not mandtory):</label>
+            <input type="number" placeholder="Enter Batch" id="Batch" value="20" pattern="[0-9]{4}" title="Enter your batch"><br><br>
+
+            <label for="">Password:</label>
+            <input type="password" placeholder="Enter Password" id="Password" required pattern="[A-Za-z]{6}" title="password must be in character letter=6" required><br><br>
+
+            <label for="">Confirm Password:</label>
+            <input type="password" placeholder="Confirm Password" id="Confirm password" title="Confirm password"><br><br>
+        </div>
+        <div class="box2">
+            <button type="Add New Library Member">Add New Library Member</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
